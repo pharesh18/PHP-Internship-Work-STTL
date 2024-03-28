@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.links {
+    flex: 1;
+    position: fixed;
+    overflow-y: auto;
+    height: 100%;
+    background-color: #ee9f27;
+    width: 10vw;
+    font-size: 18px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.links a:hover {
+    background-color: #fff;
+}
+
+.files {
+    flex: 3;
+    padding-left: 200px;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.files iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow-y: auto;
+    margin-left: 12vw;
+}
